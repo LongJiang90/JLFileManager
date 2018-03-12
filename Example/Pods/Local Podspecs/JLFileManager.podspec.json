@@ -1,0 +1,22 @@
+{
+  "name": "JLFileManager",
+  "version": "0.1.0",
+  "summary": "A short description of JLFileManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/983220205@qq.com/JLFileManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "983220205@qq.com": "983220205@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/983220205@qq.com/JLFileManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JLFileManager/Classes/**/*"
+}

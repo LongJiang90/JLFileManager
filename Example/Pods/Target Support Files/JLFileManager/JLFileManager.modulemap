@@ -1,0 +1,6 @@
+framework module JLFileManager {
+  umbrella header "JLFileManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

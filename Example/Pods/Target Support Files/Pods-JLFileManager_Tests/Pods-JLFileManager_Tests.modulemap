@@ -1,0 +1,6 @@
+framework module Pods_JLFileManager_Tests {
+  umbrella header "Pods-JLFileManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
