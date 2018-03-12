@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'JLFileManager_Example' do
   pod 'JLFileManager', :path => '../'
+  pod 'AFNetworking', '~> 3.0.4'
 
   target 'JLFileManager_Tests' do
     inherit! :search_paths
