@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "summary": "下载、预览文件.",
   "description": "方便得使用manager来管理文件的 下载、查看、缓存、清理等操作。",
-  "homepage": "https://github.com/983220205@qq.com/JLFileManager.git",
+  "homepage": "https://github.com/LongJiangSB/JLFileManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "JiangLong": "983220205@qq.com"
   },
   "source": {
-    "git": "https://github.com/983220205@qq.com/JLFileManager.git",
+    "git": "https://github.com/LongJiangSB/JLFileManager.git",
     "tag": "0.0.1"
   },
   "platforms": {
