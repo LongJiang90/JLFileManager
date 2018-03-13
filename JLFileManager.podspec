@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/LongJiangSB/JLFileManager'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JiangLong' => '983220205@qq.com' }
-  s.source           = { :git => 'https://github.com/983220205@qq.com/JLFileManager.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/LongJiangSB/JLFileManager.git', :tag => s.version }
   s.platform     = :ios, "8.0"
   s.requires_arc = true
   s.frameworks   = 'UIKit','Foundation'
