@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 方便得使用manager来管理文件的 下载、查看、缓存、清理等操作。
                        DESC
 
-  s.homepage         = 'https://github.com/983220205@qq.com/JLFileManager.git'
+  s.homepage         = 'https://github.com/LongJiangSB/JLFileManager.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'JiangLong' => '983220205@qq.com' }
   s.source           = { :git => 'https://github.com/983220205@qq.com/JLFileManager.git', :tag => s.version }
