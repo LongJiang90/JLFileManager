@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "FileInfo.h"
+#import "JLFileManager.h"
+#import "ShowFileVC.h"
 
 FOUNDATION_EXPORT double JLFileManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char JLFileManagerVersionString[];

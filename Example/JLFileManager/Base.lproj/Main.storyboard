@@ -20,8 +20,43 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8UP-0t-IKE">
+                                <rect key="frame" x="50" y="317.5" width="275" height="32"/>
+                                <color key="backgroundColor" red="0.99695402379999998" green="0.5380968451" blue="0.19939628240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="下载文件">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="JHF-jg-noK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsy-VP-8qt">
+                                <rect key="frame" x="50" y="379.5" width="275" height="32"/>
+                                <color key="backgroundColor" red="0.99695402379999998" green="0.5380968451" blue="0.19939628240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="清除缓存">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearBtnAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="y5W-iy-2vz"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qsy-VP-8qt" firstAttribute="top" secondItem="8UP-0t-IKE" secondAttribute="bottom" constant="30" id="Gdy-0g-Dvb"/>
+                            <constraint firstItem="qsy-VP-8qt" firstAttribute="trailing" secondItem="8UP-0t-IKE" secondAttribute="trailing" id="HZg-mu-RrT"/>
+                            <constraint firstItem="8UP-0t-IKE" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="50" id="R4B-od-Ilv"/>
+                            <constraint firstItem="8UP-0t-IKE" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="RLn-8H-MDc"/>
+                            <constraint firstItem="qsy-VP-8qt" firstAttribute="leading" secondItem="8UP-0t-IKE" secondAttribute="leading" id="ioj-Xn-Cx2"/>
+                            <constraint firstAttribute="trailing" secondItem="8UP-0t-IKE" secondAttribute="trailing" constant="50" id="yME-Xa-fwg"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="8UP-0t-IKE" id="ESk-6P-FBY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
