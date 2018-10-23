@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-```object-c
+```objective-c
 [self.jlFileM getFileDataByInfo:fileI andDUrl:fileI.f_url succesfull:^(FileInfo *filInfo, NSString *mes) {
     // do somthing
  }];
