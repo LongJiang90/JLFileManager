@@ -9,12 +9,16 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```object-c
+[self.jlFileM getFileDataByInfo:fileI andDUrl:fileI.f_url succesfull:^(FileInfo *filInfo, NSString *mes) {
+    // do somthing
+ }];
+```
+
 ## Requirements
 
 ## Installation
-
-JLFileManager is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'JLFileManager'
@@ -22,7 +26,7 @@ pod 'JLFileManager'
 
 ## Author
 
-983220205@qq.com, 983220205@qq.com
+983220205@qq.com
 
 ## License
 
